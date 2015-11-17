@@ -1,0 +1,16 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 6789
+  adminConnectors:
+    - type: http
+      port: 5561
+
+# Logging settings.
+logging:
+
+  # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
+  level: INFO
+
+  appenders:
+    - type: console
